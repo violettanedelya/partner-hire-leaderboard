@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Найм · Партнёрский менеджер · Insapp</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FAFBFD;--card:#fff;--navy:#0B1F47;--accent:#1B5CFF;--accent-soft:#E5EEFF;--border:#D6DEEC;--muted:#46546F;--soft:#5C6A85}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'IBM Plex Sans',-apple-system,sans-serif;background:var(--bg);color:var(--navy);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.wrap{width:100%;max-width:640px}
+.h{font-family:'Unbounded',sans-serif;font-size:24px;font-weight:800;letter-spacing:-.02em;line-height:1.2}
+.sub{font-size:13.5px;color:var(--muted);margin:8px 0 24px;line-height:1.6}
+.sub b{color:var(--navy)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:560px){.grid{grid-template-columns:1fr}}
+a.tile{display:block;text-decoration:none;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:22px 20px;box-shadow:0 1px 3px rgba(11,31,71,.05);transition:.15s}
+a.tile:hover{border-color:var(--accent);box-shadow:0 6px 22px rgba(27,92,255,.14);transform:translateY(-2px)}
+.ico{width:42px;height:42px;border-radius:11px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:12px}
+.tt{font-weight:700;font-size:16px;color:var(--navy)}
+.td{font-size:12px;color:var(--soft);margin-top:5px;line-height:1.5}
+.go{margin-top:12px;font-size:12px;font-weight:700;color:var(--accent)}
+.lock{margin-top:22px;font-size:11.5px;color:var(--soft);display:flex;align-items:center;gap:6px}
+.tag{display:inline-block;font-size:10px;font-weight:800;color:#fff;background:#9A5F00;padding:2px 8px;border-radius:6px;letter-spacing:.04em;margin-bottom:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="tag">НА СОГЛАСОВАНИИ · БЕЗ ЗАПУСКА</span>
+  <div class="h">Найм · Партнёрский менеджер</div>
+  <div class="sub">Insapp · один трек, оси и критерии из документа требований. Материалы на согласование с руководством. <b>Доступ по паролю.</b></div>
+  <div class="grid">
+    <a class="tile" href="board.html">
+      <div class="ico">📊</div>
+      <div class="tt">Лидерборд найма</div>
+      <div class="td">Кандидаты по этапам воронки, 6 осей скоринга, ответы кандидатов и карточки к собесу.</div>
+      <div class="go">Открыть →</div>
+    </a>
+    <a class="tile" href="perepiska.html">
+      <div class="ico">💬</div>
+      <div class="tt">Формат переписки</div>
+      <div class="td">Воронка анкетирования кандидата: сообщения по шагам, гейт, привязка к осям, красные флаги.</div>
+      <div class="go">Открыть →</div>
+    </a>
+  </div>
+  <div class="lock">🔒 Обе страницы под паролем. Контент зашифрован в браузере.</div>
+</div>
+</body>
+</html>
